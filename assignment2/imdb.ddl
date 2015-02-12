@@ -1,6 +1,6 @@
 -- -*- mode:sql -*-
 
-DROP SCHEMA IF EXISTS imdb;
+DROP SCHEMA IF EXISTS imdb cascade;
 CREATE SCHEMA imdb;
 SET search_path TO imdb;
 
