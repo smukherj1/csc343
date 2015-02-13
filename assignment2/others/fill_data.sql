@@ -2,6 +2,8 @@
 delete from roles;
 delete from writers;
 delete from composers;
+delete from directors;
+delete from cinematographers;
 delete from movie_keywords;
 delete from keywords;
 delete from movies;
@@ -24,6 +26,7 @@ insert into people values
 
 insert into roles values
 	(0, 0, 'Sam Roy Kan'), --person_id, movie_id, role
+	(0, 0, 'Clown'),
 	(1, 0, 'Raj'),
 	(0, 1, 'Red Chaddi'),
 	(2, 1, 'Blue Chaddi'),
@@ -39,6 +42,20 @@ insert into writers values
 ;
 
 insert into composers values
+	(0, 6), -- movie_id, person_id
+	(1, 4),
+	(1, 7),
+	(2, 8)
+;
+
+insert into directors values
+	(0, 6), -- movie_id, person_id
+	(1, 4),
+	(1, 7),
+	(2, 7)
+;
+
+insert into cinematographers values
 	(0, 6), -- movie_id, person_id
 	(1, 4),
 	(1, 7),
