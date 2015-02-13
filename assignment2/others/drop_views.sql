@@ -14,3 +14,6 @@ drop view if exists super_writers cascade;
 drop view if exists regular_movies cascade;
 drop view if exists regular_writers cascade;
 drop view if exists exclusive_super_writers cascade;
+drop view if exists actor_movies cascade;
+drop view if exists actor_movies_no_dupl_year cascade;
+drop view if exists actor_three_movies cascade;

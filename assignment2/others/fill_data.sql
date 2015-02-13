@@ -43,7 +43,9 @@ insert into roles values
 	(4, 6, 'Vijay'),
 	(4, 7, 'Manoj'),
 	(4, 8, 'Arjun'),
-	(4, 9, 'Abhay')
+	(4, 9, 'Abhay'),
+	(4, 10, 'Zandu'),
+	(4, 11, 'Nichimura')
 ;
 
 insert into writers values
