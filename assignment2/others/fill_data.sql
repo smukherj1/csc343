@@ -2,14 +2,13 @@
 delete from roles;
 delete from writers;
 delete from composers;
+delete from movie_keywords;
+delete from keywords;
 delete from movies;
 delete from people;
 
-insert into movies values
-(0, 'Dilwale Dulhaniya Le Jayenge Returns', 2014, 7.3),
-(1, 'Chaddi Buddies', 2013, 9.6),
-(2, 'Jatin Pagal Ho Gaya', 2006, 5.5)
-;
+-- Fill 250 movies
+\i others/fill_movies.sql
 
 insert into people values
 	(0, 'Pitt, Brad'),
@@ -45,3 +44,18 @@ insert into composers values
 	(1, 7),
 	(2, 8)
 ;
+
+insert into keywords values
+(0, 'Word 0'),
+(1, 'Word 1'),
+(2, 'Word 2'),
+(3, 'Word 3'),
+(4, 'Word 4'),
+(5, 'Word 5'),
+(6, 'Word 6'),
+(7, 'Word 7'),
+(8, 'Word 8'),
+(9, 'Word 9')
+;
+
+\i others/fill_movie_keywords.sql
