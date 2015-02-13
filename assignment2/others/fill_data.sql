@@ -33,7 +33,17 @@ insert into roles values
 	(0, 1, 'Red Chaddi'),
 	(2, 1, 'Blue Chaddi'),
 	(1, 2, 'Jatin'),
-	(2, 2, 'Vijay')
+	(2, 2, 'Vijay'),
+
+	(2, 3, 'Vijay'),
+	(2, 4, 'Manoj'),
+	(2, 5, 'Arjun'),
+	(2, 6, 'Abhay'),
+
+	(4, 6, 'Vijay'),
+	(4, 7, 'Manoj'),
+	(4, 8, 'Arjun'),
+	(4, 9, 'Abhay')
 ;
 
 insert into writers values
