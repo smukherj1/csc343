@@ -38,6 +38,7 @@ insert into writers values
 	(0, 3), -- movie_id, person_id
 	(1, 3),
 	(1, 4),
+	(2, 4),
 	(2, 5)
 ;
 
