@@ -1,0 +1,16 @@
+drop view if exists pitt_movies cascade;
+drop view if exists pitt_coworkers cascade;
+drop view if exists pitt_coworker_counts cascade;
+drop view if exists movie_keyword_count cascade;
+drop view if exists distinct_actors cascade;
+drop view if exists distinct_people cascade;
+drop view if exists movie_different_people cascade;
+drop view if exists all_positions cascade;
+drop view if exists movie_positions cascade;
+drop view if exists movie_decade cascade;
+drop view if exists decade_super_movie cascade;
+drop view if exists super_movies cascade;
+drop view if exists super_writers cascade;
+drop view if exists regular_movies cascade;
+drop view if exists regular_writers cascade;
+drop view if exists exclusive_super_writers cascade;

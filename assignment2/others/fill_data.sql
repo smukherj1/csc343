@@ -9,6 +9,8 @@ delete from keywords;
 delete from movies;
 delete from people;
 
+\i others/drop_views.sql;
+
 -- Fill 250 movies
 \i others/fill_movies.sql
 
