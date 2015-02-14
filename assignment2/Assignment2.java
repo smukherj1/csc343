@@ -1,10 +1,5 @@
-import java.util.ArrayList;      // This is the main data structure.
-import java.util.Collections;    // This import is for sorting ArrayLists
-
-import java.util.Set;            // You may find these classes helpful,
-import java.util.LinkedHashSet;  // but you aren't required to use them.
-
 import java.sql.*;
+import java.util.*;
 
 public class Assignment2 {
 
@@ -170,7 +165,58 @@ public class Assignment2 {
 						catch(SQLException e)
 						{
 						}
+						Collections.sort(coStars, new Comparator<String>(){
+							@Override
+							public int compare(String a, String b)
+							{
+
+								return  a.compareTo(b);
+							}
+						});
 						return coStars;
+				}
+
+				private int computeConnectivityHelper(String p1, String p2)
+				throws SQLException
+				{
+					Queue<BFSQueueElement> bfsq = new LinkedList<BFSQueueElement>();
+					LinkedHashSet<String> seen_people = new LinkedHashSet<String>();
+					BFSQueueElement target_element = null;
+
+					bfsq.add(new BFSQueueElement(p1, 0));
+					seen_people.add(p1);
+
+					while(bfsq.peek() != null)
+					{
+						BFSQueueElement head = bfsq.remove();
+
+						if(p2.equals(head.name()))
+						{
+							target_element = head;
+							break;
+						}
+
+						ArrayList<String> coStars = findCoStars(head.name());
+						for(String coStar : coStars)
+						{
+							if(!seen_people.contains(coStar))
+							{
+								BFSQueueElement qe = new BFSQueueElement(coStar, head.level() + 1);
+								bfsq.add(qe);
+								seen_people.add(coStar);
+							}
+						}
+
+					}
+
+					if(target_element != null)
+					{
+						return target_element.level();
+					}
+					else
+					{
+						return -1;
+					}
 				}
 
 				/**
@@ -191,7 +237,58 @@ public class Assignment2 {
 				*                 are not connected
 				*/
 				public int computeConnectivity(String person1, String person2) {
-						// Implement this method!
-						return -1000;
+						int connectivity = -1;
+						try
+						{
+							if((person1 == person2) || (person1.equals(person2)))
+							{
+								return 0;
+							}
+						}
+						catch(NullPointerException e)
+						{
+							return -1;
+						}
+						try
+						{
+							// We don't actually need the person_ids, we only use these functions to ensure
+							// these people actually exist. If the person doesn't exist, get_person_id will
+							// throw an SQLException
+							get_person_id(person1);
+							get_person_id(person2);
+							connectivity = computeConnectivityHelper(person1, person2);
+						}
+						catch(SQLException e)
+						{
+							return -1;
+						}
+
+						return connectivity;
+				}
+
+				private class BFSQueueElement
+				{
+					private String m_name = null;
+					private int m_level = 0;
+
+					public BFSQueueElement(String name, int level)
+					{
+						if(name == null)
+						{
+							throw new IllegalArgumentException("Name can't be NULL");
+						}
+						m_name = new String(name);
+						m_level = level;
+					}
+
+					public int level()
+					{
+						return m_level;
+					}
+
+					public String name()
+					{
+						return m_name;
+					}
 				}
 		}

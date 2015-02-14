@@ -130,7 +130,8 @@ insert into roles values
 	(28, 42, 'role_id:a28m42'),
 	(29, 41, 'role_id:a29m41'),
 	(29, 42, 'role_id:a29m42'),
-	(29, 43, 'role_id:a29m43')
+	(29, 43, 'role_id:a29m43'),
+	(29, 32, 'role_id:a29m43') -- Create a cycle
 
 
 ;
