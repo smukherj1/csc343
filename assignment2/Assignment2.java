@@ -87,20 +87,12 @@ public class Assignment2 {
     try {
     PreparedStatement p;
     ResultSet r;
-    try{
-    p = connection.prepareStatement("set search_path to imdb");
-    r = p.executeQuery();
-  }
-  catch(SQLException e)
-  {
-    
-  }
-    p = connection.prepareStatement("select * from movies");
+    p = connection.prepareStatement("select * from imdb.movies");
     r = p.executeQuery();
     while (r.next()) {
                     String name = r.getString("title");
                     int guess = r.getInt("year");
-                           System.out.println(name + " guessed " + guess);
+                           System.out.println(name.trim() + ", " + guess);
                 }
           }
       catch(SQLException e)
