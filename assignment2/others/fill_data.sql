@@ -23,7 +23,8 @@ insert into people values
 	(5, 'Tatti, Chola'),
 	(6, 'Gholu, Raju'),
 	(7, 'Jokati, Kala'),
-	(8, 'Singh, Pagal')
+	(8, 'Singh, Pagal'),
+	(9, 'Shyamalan, M. Night')
 ;
 
 insert into roles values
@@ -45,7 +46,8 @@ insert into roles values
 	(4, 8, 'Arjun'),
 	(4, 9, 'Abhay'),
 	(4, 10, 'Zandu'),
-	(4, 11, 'Nichimura')
+	(4, 11, 'Nichimura'),
+	(9, 10, 'Day')
 ;
 
 insert into writers values
@@ -53,28 +55,32 @@ insert into writers values
 	(1, 3),
 	(1, 4),
 	(2, 4),
-	(2, 5)
+	(2, 5),
+	(2, 9)
 ;
 
 insert into composers values
 	(0, 6), -- movie_id, person_id
 	(1, 4),
 	(1, 7),
-	(2, 8)
+	(2, 8),
+	(1, 9)
 ;
 
 insert into directors values
 	(0, 6), -- movie_id, person_id
 	(1, 4),
 	(1, 7),
-	(2, 7)
+	(2, 7),
+	(11, 9)
 ;
 
 insert into cinematographers values
 	(0, 6), -- movie_id, person_id
 	(1, 4),
 	(1, 7),
-	(2, 8)
+	(2, 8),
+	(9, 9)
 ;
 
 insert into keywords values

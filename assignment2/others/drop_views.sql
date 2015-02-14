@@ -17,3 +17,8 @@ drop view if exists exclusive_super_writers cascade;
 drop view if exists actor_movies cascade;
 drop view if exists actor_movies_no_dupl_year cascade;
 drop view if exists actor_three_movies cascade;
+drop view if exists max_id cascade;
+drop view if exists old_movies cascade;
+drop view if exists new_movies cascade;
+drop view if exists night_movies_view cascade;
+drop view if exists night_people_view cascade;
