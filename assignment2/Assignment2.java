@@ -24,8 +24,26 @@ public class Assignment2 {
    * @return           true if the connection is successful, false otherwise
    */
   public boolean connectDB(String url, String username, String password) {
-    // Implement this method!
-    return false;
+    boolean result = true;
+    try 
+    {
+      Class.forName("org.postgresql.Driver");
+    }
+    catch (ClassNotFoundException e) {
+      result = false;
+    }
+    if(result)
+    {
+      try
+      {
+        connection = DriverManager.getConnection(url, username, password);
+      }
+      catch(SQLException e)
+      {
+        result = false;
+      }
+    }
+    return result;
   }
 
   /**
@@ -34,8 +52,19 @@ public class Assignment2 {
    * @return true if the closing was successful, false otherwise
    */
   public boolean disconnectDB() {
-    // Implement this method!
-    return false;
+    boolean result = true;
+    if(connection != null)
+    {
+      try
+      {
+        connection.close();
+      }
+      catch(SQLException e)
+      {
+        result = false;
+      }
+    }
+    return result;
   }
 
   /**
@@ -55,6 +84,29 @@ public class Assignment2 {
    */
   public ArrayList<String> findCoStars(String person) {
     // Implement this method!
+    try {
+    PreparedStatement p;
+    ResultSet r;
+    try{
+    p = connection.prepareStatement("set search_path to imdb");
+    r = p.executeQuery();
+  }
+  catch(SQLException e)
+  {
+    
+  }
+    p = connection.prepareStatement("select * from movies");
+    r = p.executeQuery();
+    while (r.next()) {
+                    String name = r.getString("title");
+                    int guess = r.getInt("year");
+                           System.out.println(name + " guessed " + guess);
+                }
+          }
+      catch(SQLException e)
+      {
+        e.printStackTrace();
+      }
     return new ArrayList<String>();
   }
 
