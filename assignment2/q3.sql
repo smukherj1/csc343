@@ -108,7 +108,7 @@ from
 where
 	mdp.movie_id = mp.movie_id
 order by
-	mp.positions asc,
+	mp.positions desc,
 	mdp.people desc,
 	mdp.movie_id asc
 ;

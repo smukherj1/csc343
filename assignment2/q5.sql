@@ -6,13 +6,16 @@ create view actor_movies as
 	select distinct
 		r.movie_id, 
 		r.person_id,
+		p.name,
 		m.title,
 		m.year 
 	from 
 		roles r, 
-		movies m 
+		movies m,
+		people p
 	where 
-		r.movie_id = m.movie_id
+		(r.movie_id = m.movie_id) and
+		(p.person_id = r.person_id)
 );
 
 -- For actors who worked on more than one movie on a particular year, only
@@ -44,6 +47,7 @@ create view actor_three_movies as
 (
 	select 
 		a1.person_id,
+		a1.name,
 		a1.year as year1,
 		a1.title as movie1,
 		a2.year as year2,
