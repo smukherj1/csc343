@@ -1,0 +1,237 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE users SYSTEM "users.dtd">
+<users>
+  <user uid="u0" dob="1992" email="user0@example.com">
+    <surname>UserTitle 0</surname>
+    <givennames>User 0</givennames>
+    <follows who="u13"/>
+  </user>
+  <user uid="u1" dob="1972" email="user1@example.com">
+    <surname>UserTitle 1</surname>
+    <givennames>User 1</givennames>
+    <follows who="u24"/>
+  </user>
+  <user uid="u2" email="user2@example.com">
+    <surname>UserTitle 2</surname>
+    <givennames>User 2</givennames>
+    <follows who="u18"/>
+    <playlists>
+      <playlist pid="12" created="2007" playcount="364"/>
+      <playlist pid="5" created="2015" playcount="324"/>
+      <playlist pid="15" created="2014" playcount="124"/>
+    </playlists>
+  </user>
+  <user uid="u3" dob="2000" email="user3@example.com">
+    <surname>UserTitle 3</surname>
+    <givennames>User 3</givennames>
+    <follows who="u21"/>
+  </user>
+  <user uid="u4" email="user4@example.com">
+    <surname>UserTitle 4</surname>
+    <givennames>User 4</givennames>
+    <follows who="u13"/>
+    <playlists>
+      <playlist pid="16" created="2010" playcount="5"/>
+      <playlist pid="9" created="2012" playcount="159"/>
+      <playlist pid="19" created="2013" playcount="267"/>
+      <playlist pid="5" created="2004" playcount="197"/>
+      <playlist pid="17" created="2014" playcount="97"/>
+    </playlists>
+  </user>
+  <user uid="u5" email="user5@example.com">
+    <surname>UserTitle 5</surname>
+    <givennames>User 5</givennames>
+    <follows who="u26"/>
+  </user>
+  <user uid="u6" dob="1963" email="user6@example.com">
+    <surname>UserTitle 6</surname>
+    <givennames>User 6</givennames>
+    <follows who="u29"/>
+    <playlists>
+      <playlist pid="1" created="2015" playcount="43"/>
+      <playlist pid="10" created="2010" playcount="283"/>
+      <playlist pid="6" created="2010" playcount="326"/>
+    </playlists>
+  </user>
+  <user uid="u7" dob="2003" email="user7@example.com">
+    <surname>UserTitle 7</surname>
+    <givennames>User 7</givennames>
+    <follows who="u18"/>
+    <playlists>
+      <playlist pid="11" created="2007" playcount="75"/>
+      <playlist pid="7" created="2006" playcount="245"/>
+    </playlists>
+  </user>
+  <user uid="u8" dob="1976" email="user8@example.com">
+    <surname>UserTitle 8</surname>
+    <givennames>User 8</givennames>
+    <follows who="u2"/>
+    <playlists>
+      <playlist pid="16" created="2008" playcount="282"/>
+      <playlist pid="17" created="2007" playcount="325"/>
+      <playlist pid="18" created="2014" playcount="358"/>
+      <playlist pid="10" created="2011" playcount="380"/>
+    </playlists>
+  </user>
+  <user uid="u9" dob="1975" email="user9@example.com">
+    <surname>UserTitle 9</surname>
+    <givennames>User 9</givennames>
+    <follows who="u20"/>
+    <playlists>
+      <playlist pid="1" created="2014" playcount="97"/>
+      <playlist pid="12" created="2012" playcount="46"/>
+      <playlist pid="9" created="2006" playcount="318"/>
+      <playlist pid="15" created="2007" playcount="327"/>
+    </playlists>
+  </user>
+  <user uid="u10" email="user10@example.com">
+    <surname>UserTitle 10</surname>
+    <givennames>User 10</givennames>
+    <follows who="u4"/>
+    <playlists>
+      <playlist pid="11" created="2014" playcount="214"/>
+    </playlists>
+  </user>
+  <user uid="u11" dob="1951" email="user11@example.com">
+    <surname>UserTitle 11</surname>
+    <givennames>User 11</givennames>
+    <follows who="u19"/>
+    <playlists>
+      <playlist pid="19" created="2004" playcount="8"/>
+      <playlist pid="7" created="2015" playcount="74"/>
+    </playlists>
+  </user>
+  <user uid="u12" email="user12@example.com">
+    <surname>UserTitle 12</surname>
+    <givennames>User 12</givennames>
+    <follows who="u6"/>
+    <playlists>
+      <playlist pid="0" created="2011" playcount="140"/>
+      <playlist pid="8" created="2006" playcount="201"/>
+      <playlist pid="2" created="2004" playcount="40"/>
+      <playlist pid="4" created="2015" playcount="79"/>
+      <playlist pid="5" created="2008" playcount="293"/>
+    </playlists>
+  </user>
+  <user uid="u13" dob="2001" email="user13@example.com">
+    <surname>UserTitle 13</surname>
+    <givennames>User 13</givennames>
+    <follows who="u5"/>
+    <playlists>
+      <playlist pid="16" created="2011" playcount="177"/>
+      <playlist pid="1" created="2006" playcount="189"/>
+      <playlist pid="13" created="2008" playcount="228"/>
+      <playlist pid="6" created="2010" playcount="124"/>
+      <playlist pid="5" created="2008" playcount="335"/>
+    </playlists>
+  </user>
+  <user uid="u14" email="user14@example.com">
+    <surname>UserTitle 14</surname>
+    <givennames>User 14</givennames>
+    <follows who="u17"/>
+  </user>
+  <user uid="u15" dob="1968" email="user15@example.com">
+    <surname>UserTitle 15</surname>
+    <givennames>User 15</givennames>
+    <follows who="u1"/>
+  </user>
+  <user uid="u16" email="user16@example.com">
+    <surname>UserTitle 16</surname>
+    <givennames>User 16</givennames>
+    <follows who="u29"/>
+  </user>
+  <user uid="u17" email="user17@example.com">
+    <surname>UserTitle 17</surname>
+    <givennames>User 17</givennames>
+    <follows who="u11"/>
+    <playlists>
+      <playlist pid="8" created="2011" playcount="0"/>
+      <playlist pid="12" created="2006" playcount="134"/>
+      <playlist pid="14" created="2006" playcount="255"/>
+      <playlist pid="7" created="2008" playcount="351"/>
+    </playlists>
+  </user>
+  <user uid="u18" dob="1973" email="user18@example.com">
+    <surname>UserTitle 18</surname>
+    <givennames>User 18</givennames>
+    <follows who="u12"/>
+    <playlists>
+      <playlist pid="0" created="2007" playcount="63"/>
+      <playlist pid="8" created="2010" playcount="195"/>
+      <playlist pid="13" created="2010" playcount="302"/>
+    </playlists>
+  </user>
+  <user uid="u19" dob="1977" email="user19@example.com">
+    <surname>UserTitle 19</surname>
+    <givennames>User 19</givennames>
+    <follows who="u9"/>
+  </user>
+  <user uid="u20" dob="1999" email="user20@example.com">
+    <surname>UserTitle 20</surname>
+    <givennames>User 20</givennames>
+    <follows who="u25"/>
+  </user>
+  <user uid="u21" dob="1985" email="user21@example.com">
+    <surname>UserTitle 21</surname>
+    <givennames>User 21</givennames>
+    <follows who="u2"/>
+    <playlists>
+      <playlist pid="8" created="2004" playcount="329"/>
+      <playlist pid="14" created="2010" playcount="39"/>
+      <playlist pid="4" created="2005" playcount="260"/>
+      <playlist pid="13" created="2014" playcount="112"/>
+      <playlist pid="6" created="2015" playcount="40"/>
+    </playlists>
+  </user>
+  <user uid="u22" dob="1972" email="user22@example.com">
+    <surname>UserTitle 22</surname>
+    <givennames>User 22</givennames>
+    <follows who="u2"/>
+  </user>
+  <user uid="u23" email="user23@example.com">
+    <surname>UserTitle 23</surname>
+    <givennames>User 23</givennames>
+    <follows who="u24"/>
+    <playlists>
+      <playlist pid="10" created="2011" playcount="139"/>
+    </playlists>
+  </user>
+  <user uid="u24" dob="1965" email="user24@example.com">
+    <surname>UserTitle 24</surname>
+    <givennames>User 24</givennames>
+    <follows who="u0"/>
+  </user>
+  <user uid="u25" dob="1981" email="user25@example.com">
+    <surname>UserTitle 25</surname>
+    <givennames>User 25</givennames>
+    <follows who="u29"/>
+    <playlists>
+      <playlist pid="0" created="2014" playcount="256"/>
+      <playlist pid="13" created="2008" playcount="215"/>
+      <playlist pid="14" created="2006" playcount="235"/>
+    </playlists>
+  </user>
+  <user uid="u26" email="user26@example.com">
+    <surname>UserTitle 26</surname>
+    <givennames>User 26</givennames>
+    <follows who="u4"/>
+  </user>
+  <user uid="u27" dob="1990" email="user27@example.com">
+    <surname>UserTitle 27</surname>
+    <givennames>User 27</givennames>
+    <follows who="u10"/>
+    <playlists>
+      <playlist pid="3" created="2015" playcount="116"/>
+    </playlists>
+  </user>
+  <user uid="u28" email="user28@example.com">
+    <surname>UserTitle 28</surname>
+    <givennames>User 28</givennames>
+    <follows who="u17"/>
+  </user>
+  <user uid="u29" email="user29@example.com">
+    <surname>UserTitle 29</surname>
+    <givennames>User 29</givennames>
+    <follows who="u7"/>
+  </user>
+</users>

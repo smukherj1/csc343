@@ -39,7 +39,7 @@ def gen_playlist(i):
 	f_out.write('>\n')
 	song_set = set()
 	for i in range(random.randint(1, 10)):
-		song_set.add(random.randint(0, NUM_SONGS))
+		song_set.add(random.randint(0, NUM_SONGS - 1))
 	for sid in song_set:
 		f_out.write('<track')
 		f_out.write(' sid="s%d"'%(sid))
