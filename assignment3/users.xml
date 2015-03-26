@@ -16,9 +16,9 @@
     <givennames>User 2</givennames>
     <follows who="u18"/>
     <playlists>
-      <playlist pid="12" created="2007" playcount="324"/>
-      <playlist pid="5" created="2015" playcount="324"/>
-      <playlist pid="15" created="2014" playcount="124"/>
+      <playlist pid="1" created="2007" playcount="324"/>
+      <playlist pid="10" created="2015" playcount="324"/>
+      <playlist pid="6" created="2014" playcount="124"/>
     </playlists>
   </user>
   <user uid="u3" dob="2000" email="user3@example.com">
@@ -58,8 +58,11 @@
     <givennames>User 7</givennames>
     <follows who="u18"/>
     <playlists>
-      <playlist pid="11" created="2007" playcount="75"/>
-      <playlist pid="7" created="2006" playcount="245"/>
+      <playlist pid="9" created="2012" playcount="159"/>
+      <playlist pid="16" created="2010" playcount="5"/>
+      <playlist pid="19" created="2013" playcount="267"/>
+      <playlist pid="5" created="2004" playcount="197"/>
+      <playlist pid="17" created="2014" playcount="97"/>
     </playlists>
   </user>
   <user uid="u8" dob="1976" email="user8@example.com">
