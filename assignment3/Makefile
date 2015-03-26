@@ -30,6 +30,16 @@ q1:
 	@xmllint q1.xml --valid > /dev/null
 	@echo Passed
 
+q2:
+	@echo "<?xml version=\"1.0\" standalone=\"no\" ?>" > q2.xml
+	@echo "<!DOCTYPE fewfollowers SYSTEM \"q2.dtd\">" >> q2.xml
+	@galax-run q2.xq >> q2.xml
+	@xmllint q2.xml --format > q2.xml1
+	@mv q2.xml1 q2.xml
+	@echo Xml generated for Q2.
+	@xmllint q2.xml --valid > /dev/null
+	@echo Passed
+
 q3:
 	@echo "<?xml version=\"1.0\" standalone=\"no\" ?>" > q3.xml
 	@echo "<!DOCTYPE favourites SYSTEM \"q3.dtd\">" >> q3.xml

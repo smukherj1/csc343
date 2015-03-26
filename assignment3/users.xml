@@ -9,7 +9,7 @@
   <user uid="u1" dob="1972" email="user1@example.com">
     <surname>UserTitle 1</surname>
     <givennames>User 1</givennames>
-    <follows who="u24"/>
+    <follows who="u2"/>
   </user>
   <user uid="u2" email="user2@example.com">
     <surname>UserTitle 2</surname>
