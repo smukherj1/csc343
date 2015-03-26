@@ -20,7 +20,7 @@ def gen_playlist():
 		pid_list.add(rint(0, NUM_PLAYLISTS - 1))
 	for pid in pid_list:
 		f_out.write('<playlist')
-		f_out.write(' pid="%d"'%pid)
+		f_out.write(' pid="P%d"'%pid)
 		f_out.write(' created="%d"'%rint(2004, 2015))
 		f_out.write(' playcount="%d"'%rint(0, 400))
 		f_out.write('/>\n')

@@ -46,8 +46,18 @@ q4:
 	@galax-run q4.xq >> q4.xml
 	@xmllint q4.xml --format > q4.xml1
 	@mv q4.xml1 q4.xml
-	@echo Xml generated for Q3.
+	@echo Xml generated for Q4.
 	@xmllint q4.xml --valid > /dev/null
+	@echo Passed
+
+q5:
+	@echo "<?xml version=\"1.0\" standalone=\"no\" ?>" > q5.xml
+	@echo "<!DOCTYPE popularity SYSTEM \"q5.dtd\">" >> q5.xml
+	@galax-run q5.xq >> q5.xml
+	@xmllint q5.xml --format > q5.xml1
+	@mv q5.xml1 q5.xml
+	@echo Xml generated for Q5.
+	@xmllint q5.xml --valid > /dev/null
 	@echo Passed
 
 clean:
