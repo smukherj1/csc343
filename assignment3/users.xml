@@ -16,7 +16,7 @@
     <givennames>User 2</givennames>
     <follows who="u18"/>
     <playlists>
-      <playlist pid="12" created="2007" playcount="364"/>
+      <playlist pid="12" created="2007" playcount="324"/>
       <playlist pid="5" created="2015" playcount="324"/>
       <playlist pid="15" created="2014" playcount="124"/>
     </playlists>
