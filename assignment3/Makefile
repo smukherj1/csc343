@@ -30,5 +30,15 @@ q1:
 	@xmllint q1.xml --valid > /dev/null
 	@echo Passed
 
+q3:
+	@echo "<?xml version=\"1.0\" standalone=\"no\" ?>" > q3.xml
+	@echo "<!DOCTYPE favourites SYSTEM \"q3.dtd\">" >> q3.xml
+	@galax-run q3.xq >> q3.xml
+	@xmllint q3.xml --format > q3.xml1
+	@mv q3.xml1 q3.xml
+	@echo Xml generated for Q3.
+	@xmllint q3.xml --valid > /dev/null
+	@echo Passed
+
 clean:
-	rm -f *.xml
+	rm -f *.xml*
