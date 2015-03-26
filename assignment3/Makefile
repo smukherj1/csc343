@@ -1,4 +1,4 @@
-all: music.xml users.xml
+all: q1 q2 q3 q4 q5 q6
 
 music.xml:
 	@echo Generating music.xml...
