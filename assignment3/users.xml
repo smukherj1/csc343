@@ -110,8 +110,8 @@
     <follows who="u6"/>
     <playlists>
       <playlist pid="P0" created="2011" playcount="140"/>
-      <playlist pid="P8" created="2006" playcount="201"/>
       <playlist pid="P2" created="2004" playcount="40"/>
+      <playlist pid="P8" created="2006" playcount="201"/>
       <playlist pid="P4" created="2015" playcount="79"/>
       <playlist pid="P5" created="2008" playcount="293"/>
     </playlists>

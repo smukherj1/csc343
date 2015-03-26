@@ -60,5 +60,15 @@ q5:
 	@xmllint q5.xml --valid > /dev/null
 	@echo Passed
 
+q6:
+	@echo "<?xml version=\"1.0\" standalone=\"no\" ?>" > q6.xml
+	@echo "<!DOCTYPE songcounts SYSTEM \"q6.dtd\">" >> q6.xml
+	@galax-run q6.xq >> q6.xml
+	@xmllint q6.xml --format > q6.xml1
+	@mv q6.xml1 q6.xml
+	@echo Xml generated for Q6.
+	@xmllint q6.xml --valid > /dev/null
+	@echo Passed
+
 clean:
 	rm -f *.xml*
