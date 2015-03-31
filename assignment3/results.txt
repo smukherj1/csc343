@@ -1,0 +1,510 @@
+Checking Assignment 3 (Part 1) Solutions
+
+============================== Query q1  ==============================
+
+------ raw output ------
+
+<noplaylist><song sid="s0"/><song sid="s1"/><song sid="s2"/><song sid="s8"/><song sid="s9"/><song sid="s13"/><song sid="s16"/><song sid="s18"/><song sid="s20"/><song sid="s22"/><song sid="s23"/><song sid="s26"/><song sid="s28"/><song sid="s37"/><song sid="s38"/><song sid="s40"/><song sid="s41"/><song sid="s45"/><song sid="s47"/><song sid="s50"/><song sid="s51"/><song sid="s53"/><song sid="s54"/><song sid="s56"/><song sid="s57"/><song sid="s60"/><song sid="s61"/><song sid="s62"/><song sid="s65"/><song sid="s67"/><song sid="s70"/><song sid="s71"/><song sid="s72"/><song sid="s74"/><song sid="s75"/><song sid="s79"/><song sid="s84"/><song sid="s85"/><song sid="s86"/><song sid="s88"/><song sid="s89"/><song sid="s90"/><song sid="s92"/><song sid="s93"/><song sid="s94"/><song sid="s97"/><song sid="s103"/><song sid="s104"/><song sid="s107"/><song sid="s108"/><song sid="s115"/><song sid="s116"/><song sid="s120"/><song sid="s122"/><song sid="s123"/><song sid="s125"/><song sid="s126"/><song sid="s127"/><song sid="s128"/><song sid="s129"/><song sid="s133"/><song sid="s134"/><song sid="s135"/><song sid="s137"/><song sid="s142"/><song sid="s144"/><song sid="s147"/><song sid="s148"/><song sid="s149"/></noplaylist>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<noplaylist>
+  <song sid="s0"/>
+  <song sid="s1"/>
+  <song sid="s2"/>
+  <song sid="s8"/>
+  <song sid="s9"/>
+  <song sid="s13"/>
+  <song sid="s16"/>
+  <song sid="s18"/>
+  <song sid="s20"/>
+  <song sid="s22"/>
+  <song sid="s23"/>
+  <song sid="s26"/>
+  <song sid="s28"/>
+  <song sid="s37"/>
+  <song sid="s38"/>
+  <song sid="s40"/>
+  <song sid="s41"/>
+  <song sid="s45"/>
+  <song sid="s47"/>
+  <song sid="s50"/>
+  <song sid="s51"/>
+  <song sid="s53"/>
+  <song sid="s54"/>
+  <song sid="s56"/>
+  <song sid="s57"/>
+  <song sid="s60"/>
+  <song sid="s61"/>
+  <song sid="s62"/>
+  <song sid="s65"/>
+  <song sid="s67"/>
+  <song sid="s70"/>
+  <song sid="s71"/>
+  <song sid="s72"/>
+  <song sid="s74"/>
+  <song sid="s75"/>
+  <song sid="s79"/>
+  <song sid="s84"/>
+  <song sid="s85"/>
+  <song sid="s86"/>
+  <song sid="s88"/>
+  <song sid="s89"/>
+  <song sid="s90"/>
+  <song sid="s92"/>
+  <song sid="s93"/>
+  <song sid="s94"/>
+  <song sid="s97"/>
+  <song sid="s103"/>
+  <song sid="s104"/>
+  <song sid="s107"/>
+  <song sid="s108"/>
+  <song sid="s115"/>
+  <song sid="s116"/>
+  <song sid="s120"/>
+  <song sid="s122"/>
+  <song sid="s123"/>
+  <song sid="s125"/>
+  <song sid="s126"/>
+  <song sid="s127"/>
+  <song sid="s128"/>
+  <song sid="s129"/>
+  <song sid="s133"/>
+  <song sid="s134"/>
+  <song sid="s135"/>
+  <song sid="s137"/>
+  <song sid="s142"/>
+  <song sid="s144"/>
+  <song sid="s147"/>
+  <song sid="s148"/>
+  <song sid="s149"/>
+</noplaylist>
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+
+============================== Query q2  ==============================
+
+------ raw output ------
+
+<fewfollowers><who uid="u0"><follower uid="u24"/></who><who uid="u1"><follower uid="u15"/></who><who uid="u3"/><who uid="u4"><follower uid="u10"/><follower uid="u26"/></who><who uid="u5"><follower uid="u13"/></who><who uid="u6"><follower uid="u12"/></who><who uid="u7"><follower uid="u29"/></who><who uid="u8"/><who uid="u9"><follower uid="u19"/></who><who uid="u10"><follower uid="u27"/></who><who uid="u11"><follower uid="u17"/></who><who uid="u12"><follower uid="u18"/></who><who uid="u13"><follower uid="u0"/><follower uid="u4"/></who><who uid="u14"/><who uid="u15"/><who uid="u16"/><who uid="u17"><follower uid="u14"/><follower uid="u28"/></who><who uid="u18"><follower uid="u2"/><follower uid="u7"/></who><who uid="u19"><follower uid="u11"/></who><who uid="u20"><follower uid="u9"/></who><who uid="u21"><follower uid="u3"/></who><who uid="u22"/><who uid="u23"/><who uid="u24"><follower uid="u23"/></who><who uid="u25"><follower uid="u20"/></who><who uid="u26"><follower uid="u5"/></who><who uid="u27"/><who uid="u28"/><who uid="u29"><follower uid="u6"/><follower uid="u16"/><follower uid="u25"/></who></fewfollowers>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<fewfollowers>
+  <who uid="u0">
+    <follower uid="u24"/>
+  </who>
+  <who uid="u1">
+    <follower uid="u15"/>
+  </who>
+  <who uid="u3"/>
+  <who uid="u4">
+    <follower uid="u10"/>
+    <follower uid="u26"/>
+  </who>
+  <who uid="u5">
+    <follower uid="u13"/>
+  </who>
+  <who uid="u6">
+    <follower uid="u12"/>
+  </who>
+  <who uid="u7">
+    <follower uid="u29"/>
+  </who>
+  <who uid="u8"/>
+  <who uid="u9">
+    <follower uid="u19"/>
+  </who>
+  <who uid="u10">
+    <follower uid="u27"/>
+  </who>
+  <who uid="u11">
+    <follower uid="u17"/>
+  </who>
+  <who uid="u12">
+    <follower uid="u18"/>
+  </who>
+  <who uid="u13">
+    <follower uid="u0"/>
+    <follower uid="u4"/>
+  </who>
+  <who uid="u14"/>
+  <who uid="u15"/>
+  <who uid="u16"/>
+  <who uid="u17">
+    <follower uid="u14"/>
+    <follower uid="u28"/>
+  </who>
+  <who uid="u18">
+    <follower uid="u2"/>
+    <follower uid="u7"/>
+  </who>
+  <who uid="u19">
+    <follower uid="u11"/>
+  </who>
+  <who uid="u20">
+    <follower uid="u9"/>
+  </who>
+  <who uid="u21">
+    <follower uid="u3"/>
+  </who>
+  <who uid="u22"/>
+  <who uid="u23"/>
+  <who uid="u24">
+    <follower uid="u23"/>
+  </who>
+  <who uid="u25">
+    <follower uid="u20"/>
+  </who>
+  <who uid="u26">
+    <follower uid="u5"/>
+  </who>
+  <who uid="u27"/>
+  <who uid="u28"/>
+  <who uid="u29">
+    <follower uid="u6"/>
+    <follower uid="u16"/>
+    <follower uid="u25"/>
+  </who>
+</fewfollowers>
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+
+============================== Query q3  ==============================
+
+------ raw output ------
+
+<favourites><user uid="u2" pid="P12" playcount="$p/@playcount"/><user uid="u2" pid="P5" playcount="$p/@playcount"/><user uid="u4" pid="P19" playcount="$p/@playcount"/><user uid="u6" pid="P15" playcount="$p/@playcount"/><user uid="u7" pid="P19" playcount="$p/@playcount"/><user uid="u8" pid="P10" playcount="$p/@playcount"/><user uid="u9" pid="P15" playcount="$p/@playcount"/><user uid="u10" pid="P11" playcount="$p/@playcount"/><user uid="u11" pid="P7" playcount="$p/@playcount"/><user uid="u12" pid="P5" playcount="$p/@playcount"/><user uid="u13" pid="P5" playcount="$p/@playcount"/><user uid="u17" pid="P7" playcount="$p/@playcount"/><user uid="u18" pid="P13" playcount="$p/@playcount"/><user uid="u21" pid="P8" playcount="$p/@playcount"/><user uid="u23" pid="P10" playcount="$p/@playcount"/><user uid="u25" pid="P0" playcount="$p/@playcount"/><user uid="u27" pid="P3" playcount="$p/@playcount"/></favourites>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<favourites>
+  <user uid="u2" pid="P12" playcount="$p/@playcount"/>
+  <user uid="u2" pid="P5" playcount="$p/@playcount"/>
+  <user uid="u4" pid="P19" playcount="$p/@playcount"/>
+  <user uid="u6" pid="P15" playcount="$p/@playcount"/>
+  <user uid="u7" pid="P19" playcount="$p/@playcount"/>
+  <user uid="u8" pid="P10" playcount="$p/@playcount"/>
+  <user uid="u9" pid="P15" playcount="$p/@playcount"/>
+  <user uid="u10" pid="P11" playcount="$p/@playcount"/>
+  <user uid="u11" pid="P7" playcount="$p/@playcount"/>
+  <user uid="u12" pid="P5" playcount="$p/@playcount"/>
+  <user uid="u13" pid="P5" playcount="$p/@playcount"/>
+  <user uid="u17" pid="P7" playcount="$p/@playcount"/>
+  <user uid="u18" pid="P13" playcount="$p/@playcount"/>
+  <user uid="u21" pid="P8" playcount="$p/@playcount"/>
+  <user uid="u23" pid="P10" playcount="$p/@playcount"/>
+  <user uid="u25" pid="P0" playcount="$p/@playcount"/>
+  <user uid="u27" pid="P3" playcount="$p/@playcount"/>
+</favourites>
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+
+============================== Query q4  ==============================
+
+------ raw output ------
+
+<pairs><pair uid1="u4" uid2="u7"/></pairs>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<pairs>
+  <pair uid1="u4" uid2="u7"/>
+</pairs>
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+
+============================== Query q5  ==============================
+
+------ raw output ------
+
+<popularity><histogram pid="P0"><low count="0"/><medium count="0"/><high count="3"/></histogram><histogram pid="P1"><low count="0"/><medium count="0"/><high count="2"/></histogram><histogram pid="P2"><low count="0"/><medium count="1"/><high count="0"/></histogram><histogram pid="P3"><low count="0"/><medium count="0"/><high count="1"/></histogram><histogram pid="P4"><low count="0"/><medium count="0"/><high count="2"/></histogram><histogram pid="P5"><low count="0"/><medium count="1"/><high count="5"/></histogram><histogram pid="P6"><low count="0"/><medium count="1"/><high count="1"/></histogram><histogram pid="P7"><low count="0"/><medium count="0"/><high count="2"/></histogram><histogram pid="P8"><low count="1"/><medium count="0"/><high count="3"/></histogram><histogram pid="P9"><low count="0"/><medium count="0"/><high count="3"/></histogram><histogram pid="P10"><low count="0"/><medium count="0"/><high count="2"/></histogram><histogram pid="P11"><low count="0"/><medium count="0"/><high count="1"/></histogram><histogram pid="P12"><low count="1"/><medium count="1"/><high count="2"/></histogram><histogram pid="P13"><low count="0"/><medium count="0"/><high count="4"/></histogram><histogram pid="P14"><low count="0"/><medium count="1"/><high count="2"/></histogram><histogram pid="P15"><low count="0"/><medium count="0"/><high count="3"/></histogram><histogram pid="P16"><low count="0"/><medium count="2"/><high count="2"/></histogram><histogram pid="P17"><low count="0"/><medium count="0"/><high count="3"/></histogram><histogram pid="P18"><low count="0"/><medium count="0"/><high count="1"/></histogram><histogram pid="P19"><low count="0"/><medium count="1"/><high count="2"/></histogram></popularity>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<popularity>
+  <histogram pid="P0">
+    <low count="0"/>
+    <medium count="0"/>
+    <high count="3"/>
+  </histogram>
+  <histogram pid="P1">
+    <low count="0"/>
+    <medium count="0"/>
+    <high count="2"/>
+  </histogram>
+  <histogram pid="P2">
+    <low count="0"/>
+    <medium count="1"/>
+    <high count="0"/>
+  </histogram>
+  <histogram pid="P3">
+    <low count="0"/>
+    <medium count="0"/>
+    <high count="1"/>
+  </histogram>
+  <histogram pid="P4">
+    <low count="0"/>
+    <medium count="0"/>
+    <high count="2"/>
+  </histogram>
+  <histogram pid="P5">
+    <low count="0"/>
+    <medium count="1"/>
+    <high count="5"/>
+  </histogram>
+  <histogram pid="P6">
+    <low count="0"/>
+    <medium count="1"/>
+    <high count="1"/>
+  </histogram>
+  <histogram pid="P7">
+    <low count="0"/>
+    <medium count="0"/>
+    <high count="2"/>
+  </histogram>
+  <histogram pid="P8">
+    <low count="1"/>
+    <medium count="0"/>
+    <high count="3"/>
+  </histogram>
+  <histogram pid="P9">
+    <low count="0"/>
+    <medium count="0"/>
+    <high count="3"/>
+  </histogram>
+  <histogram pid="P10">
+    <low count="0"/>
+    <medium count="0"/>
+    <high count="2"/>
+  </histogram>
+  <histogram pid="P11">
+    <low count="0"/>
+    <medium count="0"/>
+    <high count="1"/>
+  </histogram>
+  <histogram pid="P12">
+    <low count="1"/>
+    <medium count="1"/>
+    <high count="2"/>
+  </histogram>
+  <histogram pid="P13">
+    <low count="0"/>
+    <medium count="0"/>
+    <high count="4"/>
+  </histogram>
+  <histogram pid="P14">
+    <low count="0"/>
+    <medium count="1"/>
+    <high count="2"/>
+  </histogram>
+  <histogram pid="P15">
+    <low count="0"/>
+    <medium count="0"/>
+    <high count="3"/>
+  </histogram>
+  <histogram pid="P16">
+    <low count="0"/>
+    <medium count="2"/>
+    <high count="2"/>
+  </histogram>
+  <histogram pid="P17">
+    <low count="0"/>
+    <medium count="0"/>
+    <high count="3"/>
+  </histogram>
+  <histogram pid="P18">
+    <low count="0"/>
+    <medium count="0"/>
+    <high count="1"/>
+  </histogram>
+  <histogram pid="P19">
+    <low count="0"/>
+    <medium count="1"/>
+    <high count="2"/>
+  </histogram>
+</popularity>
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+
+============================== Query q6  ==============================
+
+------ raw output ------
+
+<songcounts><song sid="s0" title="Song 0" playcount="0"/><song sid="s1" title="Song 1" playcount="0"/><song sid="s2" title="Song 2" playcount="0"/><song sid="s3" title="Song 3" playcount="358"/><song sid="s4" title="Song 4" playcount="725"/><song sid="s5" title="Song 5" playcount="507"/><song sid="s6" title="Song 6" playcount="2621"/><song sid="s7" title="Song 7" playcount="254"/><song sid="s8" title="Song 8" playcount="0"/><song sid="s9" title="Song 9" playcount="0"/><song sid="s10" title="Song 10" playcount="519"/><song sid="s11" title="Song 11" playcount="1049"/><song sid="s12" title="Song 12" playcount="254"/><song sid="s13" title="Song 13" playcount="0"/><song sid="s14" title="Song 14" playcount="743"/><song sid="s15" title="Song 15" playcount="459"/><song sid="s16" title="Song 16" playcount="0"/><song sid="s17" title="Song 17" playcount="1212"/><song sid="s18" title="Song 18" playcount="0"/><song sid="s19" title="Song 19" playcount="793"/><song sid="s20" title="Song 20" playcount="0"/><song sid="s21" title="Song 21" playcount="164"/><song sid="s22" title="Song 22" playcount="0"/><song sid="s23" title="Song 23" playcount="0"/><song sid="s24" title="Song 24" playcount="1377"/><song sid="s25" title="Song 25" playcount="817"/><song sid="s26" title="Song 26" playcount="0"/><song sid="s27" title="Song 27" playcount="507"/><song sid="s28" title="Song 28" playcount="0"/><song sid="s29" title="Song 29" playcount="40"/><song sid="s30" title="Song 30" playcount="857"/><song sid="s31" title="Song 31" playcount="725"/><song sid="s32" title="Song 32" playcount="1377"/><song sid="s33" title="Song 33" playcount="559"/><song sid="s34" title="Song 34" playcount="988"/><song sid="s35" title="Song 35" playcount="40"/><song sid="s36" title="Song 36" playcount="519"/><song sid="s37" title="Song 37" playcount="0"/><song sid="s38" title="Song 38" playcount="0"/><song sid="s39" title="Song 39" playcount="1906"/><song sid="s40" title="Song 40" playcount="0"/><song sid="s41" title="Song 41" playcount="0"/><song sid="s42" title="Song 42" playcount="1196"/><song sid="s43" title="Song 43" playcount="817"/><song sid="s44" title="Song 44" playcount="857"/><song sid="s45" title="Song 45" playcount="0"/><song sid="s46" title="Song 46" playcount="636"/><song sid="s47" title="Song 47" playcount="0"/><song sid="s48" title="Song 48" playcount="725"/><song sid="s49" title="Song 49" playcount="817"/><song sid="s50" title="Song 50" playcount="0"/><song sid="s51" title="Song 51" playcount="0"/><song sid="s52" title="Song 52" playcount="339"/><song sid="s53" title="Song 53" playcount="0"/><song sid="s54" title="Song 54" playcount="0"/><song sid="s55" title="Song 55" playcount="725"/><song sid="s56" title="Song 56" playcount="0"/><song sid="s57" title="Song 57" playcount="0"/><song sid="s58" title="Song 58" playcount="40"/><song sid="s59" title="Song 59" playcount="164"/><song sid="s60" title="Song 60" playcount="0"/><song sid="s61" title="Song 61" playcount="0"/><song sid="s62" title="Song 62" playcount="0"/><song sid="s63" title="Song 63" playcount="459"/><song sid="s64" title="Song 64" playcount="507"/><song sid="s65" title="Song 65" playcount="0"/><song sid="s66" title="Song 66" playcount="793"/><song sid="s67" title="Song 67" playcount="0"/><song sid="s68" title="Song 68" playcount="503"/><song sid="s69" title="Song 69" playcount="673"/><song sid="s70" title="Song 70" playcount="0"/><song sid="s71" title="Song 71" playcount="0"/><song sid="s72" title="Song 72" playcount="0"/><song sid="s73" title="Song 73" playcount="1884"/><song sid="s74" title="Song 74" playcount="0"/><song sid="s75" title="Song 75" playcount="0"/><song sid="s76" title="Song 76" playcount="881"/><song sid="s77" title="Song 77" playcount="519"/><song sid="s78" title="Song 78" playcount="286"/><song sid="s79" title="Song 79" playcount="0"/><song sid="s80" title="Song 80" playcount="529"/><song sid="s81" title="Song 81" playcount="857"/><song sid="s82" title="Song 82" playcount="358"/><song sid="s83" title="Song 83" playcount="857"/><song sid="s84" title="Song 84" playcount="0"/><song sid="s85" title="Song 85" playcount="0"/><song sid="s86" title="Song 86" playcount="0"/><song sid="s87" title="Song 87" playcount="1775"/><song sid="s88" title="Song 88" playcount="0"/><song sid="s89" title="Song 89" playcount="0"/><song sid="s90" title="Song 90" playcount="0"/><song sid="s91" title="Song 91" playcount="339"/><song sid="s92" title="Song 92" playcount="0"/><song sid="s93" title="Song 93" playcount="0"/><song sid="s94" title="Song 94" playcount="0"/><song sid="s95" title="Song 95" playcount="116"/><song sid="s96" title="Song 96" playcount="469"/><song sid="s97" title="Song 97" playcount="0"/><song sid="s98" title="Song 98" playcount="575"/><song sid="s99" title="Song 99" playcount="519"/><song sid="s100" title="Song 100" playcount="636"/><song sid="s101" title="Song 101" playcount="519"/><song sid="s102" title="Song 102" playcount="164"/><song sid="s103" title="Song 103" playcount="0"/><song sid="s104" title="Song 104" playcount="0"/><song sid="s105" title="Song 105" playcount="2235"/><song sid="s106" title="Song 106" playcount="805"/><song sid="s107" title="Song 107" playcount="0"/><song sid="s108" title="Song 108" playcount="0"/><song sid="s109" title="Song 109" playcount="529"/><song sid="s110" title="Song 110" playcount="1211"/><song sid="s111" title="Song 111" playcount="575"/><song sid="s112" title="Song 112" playcount="459"/><song sid="s113" title="Song 113" playcount="507"/><song sid="s114" title="Song 114" playcount="756"/><song sid="s115" title="Song 115" playcount="0"/><song sid="s116" title="Song 116" playcount="0"/><song sid="s117" title="Song 117" playcount="529"/><song sid="s118" title="Song 118" playcount="164"/><song sid="s119" title="Song 119" playcount="425"/><song sid="s120" title="Song 120" playcount="0"/><song sid="s121" title="Song 121" playcount="572"/><song sid="s122" title="Song 122" playcount="0"/><song sid="s123" title="Song 123" playcount="0"/><song sid="s124" title="Song 124" playcount="1026"/><song sid="s125" title="Song 125" playcount="0"/><song sid="s126" title="Song 126" playcount="0"/><song sid="s127" title="Song 127" playcount="0"/><song sid="s128" title="Song 128" playcount="0"/><song sid="s129" title="Song 129" playcount="0"/><song sid="s130" title="Song 130" playcount="507"/><song sid="s131" title="Song 131" playcount="339"/><song sid="s132" title="Song 132" playcount="425"/><song sid="s133" title="Song 133" playcount="0"/><song sid="s134" title="Song 134" playcount="0"/><song sid="s135" title="Song 135" playcount="0"/><song sid="s136" title="Song 136" playcount="286"/><song sid="s137" title="Song 137" playcount="0"/><song sid="s138" title="Song 138" playcount="164"/><song sid="s139" title="Song 139" playcount="1377"/><song sid="s140" title="Song 140" playcount="1896"/><song sid="s141" title="Song 141" playcount="40"/><song sid="s142" title="Song 142" playcount="0"/><song sid="s143" title="Song 143" playcount="1377"/><song sid="s144" title="Song 144" playcount="0"/><song sid="s145" title="Song 145" playcount="164"/><song sid="s146" title="Song 146" playcount="756"/><song sid="s147" title="Song 147" playcount="0"/><song sid="s148" title="Song 148" playcount="0"/><song sid="s149" title="Song 149" playcount="0"/></songcounts>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<songcounts>
+  <song sid="s0" title="Song 0" playcount="0"/>
+  <song sid="s1" title="Song 1" playcount="0"/>
+  <song sid="s2" title="Song 2" playcount="0"/>
+  <song sid="s3" title="Song 3" playcount="358"/>
+  <song sid="s4" title="Song 4" playcount="725"/>
+  <song sid="s5" title="Song 5" playcount="507"/>
+  <song sid="s6" title="Song 6" playcount="2621"/>
+  <song sid="s7" title="Song 7" playcount="254"/>
+  <song sid="s8" title="Song 8" playcount="0"/>
+  <song sid="s9" title="Song 9" playcount="0"/>
+  <song sid="s10" title="Song 10" playcount="519"/>
+  <song sid="s11" title="Song 11" playcount="1049"/>
+  <song sid="s12" title="Song 12" playcount="254"/>
+  <song sid="s13" title="Song 13" playcount="0"/>
+  <song sid="s14" title="Song 14" playcount="743"/>
+  <song sid="s15" title="Song 15" playcount="459"/>
+  <song sid="s16" title="Song 16" playcount="0"/>
+  <song sid="s17" title="Song 17" playcount="1212"/>
+  <song sid="s18" title="Song 18" playcount="0"/>
+  <song sid="s19" title="Song 19" playcount="793"/>
+  <song sid="s20" title="Song 20" playcount="0"/>
+  <song sid="s21" title="Song 21" playcount="164"/>
+  <song sid="s22" title="Song 22" playcount="0"/>
+  <song sid="s23" title="Song 23" playcount="0"/>
+  <song sid="s24" title="Song 24" playcount="1377"/>
+  <song sid="s25" title="Song 25" playcount="817"/>
+  <song sid="s26" title="Song 26" playcount="0"/>
+  <song sid="s27" title="Song 27" playcount="507"/>
+  <song sid="s28" title="Song 28" playcount="0"/>
+  <song sid="s29" title="Song 29" playcount="40"/>
+  <song sid="s30" title="Song 30" playcount="857"/>
+  <song sid="s31" title="Song 31" playcount="725"/>
+  <song sid="s32" title="Song 32" playcount="1377"/>
+  <song sid="s33" title="Song 33" playcount="559"/>
+  <song sid="s34" title="Song 34" playcount="988"/>
+  <song sid="s35" title="Song 35" playcount="40"/>
+  <song sid="s36" title="Song 36" playcount="519"/>
+  <song sid="s37" title="Song 37" playcount="0"/>
+  <song sid="s38" title="Song 38" playcount="0"/>
+  <song sid="s39" title="Song 39" playcount="1906"/>
+  <song sid="s40" title="Song 40" playcount="0"/>
+  <song sid="s41" title="Song 41" playcount="0"/>
+  <song sid="s42" title="Song 42" playcount="1196"/>
+  <song sid="s43" title="Song 43" playcount="817"/>
+  <song sid="s44" title="Song 44" playcount="857"/>
+  <song sid="s45" title="Song 45" playcount="0"/>
+  <song sid="s46" title="Song 46" playcount="636"/>
+  <song sid="s47" title="Song 47" playcount="0"/>
+  <song sid="s48" title="Song 48" playcount="725"/>
+  <song sid="s49" title="Song 49" playcount="817"/>
+  <song sid="s50" title="Song 50" playcount="0"/>
+  <song sid="s51" title="Song 51" playcount="0"/>
+  <song sid="s52" title="Song 52" playcount="339"/>
+  <song sid="s53" title="Song 53" playcount="0"/>
+  <song sid="s54" title="Song 54" playcount="0"/>
+  <song sid="s55" title="Song 55" playcount="725"/>
+  <song sid="s56" title="Song 56" playcount="0"/>
+  <song sid="s57" title="Song 57" playcount="0"/>
+  <song sid="s58" title="Song 58" playcount="40"/>
+  <song sid="s59" title="Song 59" playcount="164"/>
+  <song sid="s60" title="Song 60" playcount="0"/>
+  <song sid="s61" title="Song 61" playcount="0"/>
+  <song sid="s62" title="Song 62" playcount="0"/>
+  <song sid="s63" title="Song 63" playcount="459"/>
+  <song sid="s64" title="Song 64" playcount="507"/>
+  <song sid="s65" title="Song 65" playcount="0"/>
+  <song sid="s66" title="Song 66" playcount="793"/>
+  <song sid="s67" title="Song 67" playcount="0"/>
+  <song sid="s68" title="Song 68" playcount="503"/>
+  <song sid="s69" title="Song 69" playcount="673"/>
+  <song sid="s70" title="Song 70" playcount="0"/>
+  <song sid="s71" title="Song 71" playcount="0"/>
+  <song sid="s72" title="Song 72" playcount="0"/>
+  <song sid="s73" title="Song 73" playcount="1884"/>
+  <song sid="s74" title="Song 74" playcount="0"/>
+  <song sid="s75" title="Song 75" playcount="0"/>
+  <song sid="s76" title="Song 76" playcount="881"/>
+  <song sid="s77" title="Song 77" playcount="519"/>
+  <song sid="s78" title="Song 78" playcount="286"/>
+  <song sid="s79" title="Song 79" playcount="0"/>
+  <song sid="s80" title="Song 80" playcount="529"/>
+  <song sid="s81" title="Song 81" playcount="857"/>
+  <song sid="s82" title="Song 82" playcount="358"/>
+  <song sid="s83" title="Song 83" playcount="857"/>
+  <song sid="s84" title="Song 84" playcount="0"/>
+  <song sid="s85" title="Song 85" playcount="0"/>
+  <song sid="s86" title="Song 86" playcount="0"/>
+  <song sid="s87" title="Song 87" playcount="1775"/>
+  <song sid="s88" title="Song 88" playcount="0"/>
+  <song sid="s89" title="Song 89" playcount="0"/>
+  <song sid="s90" title="Song 90" playcount="0"/>
+  <song sid="s91" title="Song 91" playcount="339"/>
+  <song sid="s92" title="Song 92" playcount="0"/>
+  <song sid="s93" title="Song 93" playcount="0"/>
+  <song sid="s94" title="Song 94" playcount="0"/>
+  <song sid="s95" title="Song 95" playcount="116"/>
+  <song sid="s96" title="Song 96" playcount="469"/>
+  <song sid="s97" title="Song 97" playcount="0"/>
+  <song sid="s98" title="Song 98" playcount="575"/>
+  <song sid="s99" title="Song 99" playcount="519"/>
+  <song sid="s100" title="Song 100" playcount="636"/>
+  <song sid="s101" title="Song 101" playcount="519"/>
+  <song sid="s102" title="Song 102" playcount="164"/>
+  <song sid="s103" title="Song 103" playcount="0"/>
+  <song sid="s104" title="Song 104" playcount="0"/>
+  <song sid="s105" title="Song 105" playcount="2235"/>
+  <song sid="s106" title="Song 106" playcount="805"/>
+  <song sid="s107" title="Song 107" playcount="0"/>
+  <song sid="s108" title="Song 108" playcount="0"/>
+  <song sid="s109" title="Song 109" playcount="529"/>
+  <song sid="s110" title="Song 110" playcount="1211"/>
+  <song sid="s111" title="Song 111" playcount="575"/>
+  <song sid="s112" title="Song 112" playcount="459"/>
+  <song sid="s113" title="Song 113" playcount="507"/>
+  <song sid="s114" title="Song 114" playcount="756"/>
+  <song sid="s115" title="Song 115" playcount="0"/>
+  <song sid="s116" title="Song 116" playcount="0"/>
+  <song sid="s117" title="Song 117" playcount="529"/>
+  <song sid="s118" title="Song 118" playcount="164"/>
+  <song sid="s119" title="Song 119" playcount="425"/>
+  <song sid="s120" title="Song 120" playcount="0"/>
+  <song sid="s121" title="Song 121" playcount="572"/>
+  <song sid="s122" title="Song 122" playcount="0"/>
+  <song sid="s123" title="Song 123" playcount="0"/>
+  <song sid="s124" title="Song 124" playcount="1026"/>
+  <song sid="s125" title="Song 125" playcount="0"/>
+  <song sid="s126" title="Song 126" playcount="0"/>
+  <song sid="s127" title="Song 127" playcount="0"/>
+  <song sid="s128" title="Song 128" playcount="0"/>
+  <song sid="s129" title="Song 129" playcount="0"/>
+  <song sid="s130" title="Song 130" playcount="507"/>
+  <song sid="s131" title="Song 131" playcount="339"/>
+  <song sid="s132" title="Song 132" playcount="425"/>
+  <song sid="s133" title="Song 133" playcount="0"/>
+  <song sid="s134" title="Song 134" playcount="0"/>
+  <song sid="s135" title="Song 135" playcount="0"/>
+  <song sid="s136" title="Song 136" playcount="286"/>
+  <song sid="s137" title="Song 137" playcount="0"/>
+  <song sid="s138" title="Song 138" playcount="164"/>
+  <song sid="s139" title="Song 139" playcount="1377"/>
+  <song sid="s140" title="Song 140" playcount="1896"/>
+  <song sid="s141" title="Song 141" playcount="40"/>
+  <song sid="s142" title="Song 142" playcount="0"/>
+  <song sid="s143" title="Song 143" playcount="1377"/>
+  <song sid="s144" title="Song 144" playcount="0"/>
+  <song sid="s145" title="Song 145" playcount="164"/>
+  <song sid="s146" title="Song 146" playcount="756"/>
+  <song sid="s147" title="Song 147" playcount="0"/>
+  <song sid="s148" title="Song 148" playcount="0"/>
+  <song sid="s149" title="Song 149" playcount="0"/>
+</songcounts>
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+
