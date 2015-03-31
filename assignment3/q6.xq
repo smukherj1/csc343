@@ -1,6 +1,7 @@
 <songcounts>
 {
 
+(: Get the overall playcount of every playlist :)
 let $playlist_counts :=
 <playlists>
 {
@@ -12,6 +13,7 @@ for $p in $all_playlists
 }
 </playlists>
 
+(: For each song, get the playlists it appears in :)
 let $playlist_songs :=
 <songs>
 {
@@ -29,6 +31,7 @@ for $song in doc("music.xml")//song
 }
 </songs>
 
+(: For each song, sum up the overall playcount of each playlist it appears in :)
 for $song in $playlist_songs//song
 	let $count :=
 	sum($playlist_counts//playlist[./@pid = $song/playlist/@pid]/@count)

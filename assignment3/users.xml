@@ -70,10 +70,11 @@
     <givennames>User 8</givennames>
     <follows who="u2"/>
     <playlists>
-      <playlist pid="P16" created="2008" playcount="282"/>
-      <playlist pid="P17" created="2007" playcount="325"/>
-      <playlist pid="P18" created="2014" playcount="358"/>
-      <playlist pid="P10" created="2011" playcount="380"/>
+      <playlist pid="P9" created="2012" playcount="150"/>
+      <playlist pid="P16" created="2010" playcount="51"/>
+      <playlist pid="P19" created="2013" playcount="268"/>
+      <playlist pid="P17" created="2014" playcount="97"/>
+      <playlist pid="P5" created="2004" playcount="197"/>
     </playlists>
   </user>
   <user uid="u9" dob="1975" email="user9@example.com">
@@ -81,6 +82,11 @@
     <givennames>User 9</givennames>
     <follows who="u20"/>
     <playlists>
+      <playlist pid="P9" created="2012" playcount="150"/>
+      <playlist pid="P16" created="2010" playcount="51"/>
+      <playlist pid="P19" created="2013" playcount="268"/>
+      <playlist pid="P17" created="2014" playcount="97"/>
+      <playlist pid="P5" created="2004" playcount="197"/>
       <playlist pid="P1" created="2014" playcount="97"/>
       <playlist pid="P12" created="2012" playcount="46"/>
       <playlist pid="P9" created="2006" playcount="318"/>
